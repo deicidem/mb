@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Barclays Private</title>
+    <meta name="theme-color" content="#c9e0e04d">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/main.min.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <div class="header-logo"><img class="header-logo__image" src="img/header/logo.svg">
+            <div class="header-logo__text">Barclays <br> Private</div>
+          </div>
+          <div class="header-menu">
+            <div class="header-menu__button"><span></span></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="content">
+      <div class="main">
+        <picture class="main-bg">
+          <source srcset="img/main/bg_webp.webp" type="image/webp">
+          <source srcset="img/main/bg.jpg" type="image/png"><img src="img/main/bg.jpg" alt="">
+        </picture>
+        <div class="main-block_wrapper">
+          <div class="main-block">
+            <div class="container">
+              <h1 class="main-title">Приумножь свои сбережения на 11.5% в год с гарантией AIG</h1>
+              <div class="main-subtitle">Точный доход вы можете рассчитать на нашем <a class="main-link" href="#calculator">калькуляторе</a></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="main-button svg-button" id="main-button">
+              <svg class="svg-button" viewBox="0 0 132 40">
+                <path d="M0 40, 0 0, 0 0, 132 0, 132 30, 122 40, 0 40">
+                  <animate attributeName="d" id="main-button_on" calcMode="spline" keySplines=".17 .67 .83 .67" dur="0.2s" fill="freeze" from="M0 40, 0 0, 0 0, 132 0, 132 30, 122 40, 0 40" to="M0 40, 0 20, 20 0, 132 0, 132 20, 112 40, 0 40" begin="indefinite"></animate>
+                  <animate attributeName="d" id="main-button_off" calcMode="spline" keySplines=".17 .67 .83 .67" dur="0.2s" fill="freeze" from="M0 40, 0 20, 20 0, 132 0, 132 20, 112 40, 0 40" to="M0 40, 0 0, 0 0, 132 0, 132 30, 122 40, 0 40" begin="indefinite"></animate>
+                </path><span>Рассчитать</span>
+              </svg>
+            </div>
+          </div>
+          <div class="main-scroll">
+            <svg viewBox="0 0 32 12">
+              <path class="main-scroll__arrow_big" d="M 0 1, 2 1, 15 11, 28 1, 30 1, 15 13, 0 1"></path>
+              <path class="main-scroll__arrow_small" d="M 5 0, 6 0, 15 7, 24 0, 25 0, 15 8, 5 0"></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <section class="stages section">
+        <div class="container">
+          <h2 class="stages-title title">Как увеличить свой капитал?</h2>
+          <div class="stages-blocks">
+            <div class="stages-block">
+              <svg class="stages-border stages-border_d" id="first-border_d" viewBox="0 0 280 260">
+                <path d="M 1 140, 1 1, 279 1, 279 110"></path>
+                <path d="M 1 140, 1 259, 220 259, 279 180, 279 110"></path>
+              </svg>
+              <svg class="stages-border stages-border_m" id="first-border_m" viewBox="0 0 280 260">
+                <path d="M 140 2, 2 2,  2 256, 140 256"></path>
+                <path d="M 140 2, 276 2, 278 180, 220 256, 140 256"></path>
+              </svg><img class="stages-block__img" src="img/icons/calculator.svg" alt="Калькулятор">
+              <div class="stages-block__text">Рассчитайте свой доход от вложения на калькуляторе</div>
+              <div class="stages-block__number">1</div>
+              <svg class="stages-connector stages-connector_m" id="first-connector_m">
+                <circle data-duration="1" r="1" cx="5" cy="6"></circle>
+                <path class="line" d="M 5 5, 5 140"></path>
+                <circle data-duration="1" r="1" cx="5" cy="141"></circle>
+              </svg>
+              <svg class="stages-connector stages-connector_d" id="first-connector_d">
+                <circle data-duration="1" r="1" cx="5" cy="5"></circle>
+                <path class="line" d="M 5 5, 90 5"></path>
+                <circle data-duration="1" r="1" cx="90" cy="5"></circle>
+              </svg>
+            </div>
+            <div class="stages-block">
+              <svg class="stages-border stages-border_d" id="second-border_d" viewBox="0 0 280 260">
+                <path d="M 1 140, 1 1, 279 1, 279 110"></path>
+                <path d="M 1 140, 1 259, 220 259, 279 180, 279 110"></path>
+              </svg>
+              <svg class="stages-border stages-border_m" id="second-border_m" viewBox="0 0 280 260">
+                <path d="M 140 2, 2 2,  2 256, 140 256"></path>
+                <path d="M 140 2, 276 2, 278 180, 220 256, 140 256"></path>
+              </svg><img class="stages-block__img" src="img/icons/phone-call.svg" alt="Звонок">
+              <div class="stages-block__text">Отправьте заявку - мы вам позвоним и заключим договор</div>
+              <div class="stages-block__number">2</div>
+              <svg class="stages-connector stages-connector_m" id="second-connector_m">
+                <circle data-duration="1" r="1" cx="5" cy="6"></circle>
+                <path class="line" d="M 5 5, 5 140"></path>
+                <circle data-duration="1" r="1" cx="5" cy="141"></circle>
+              </svg>
+              <svg class="stages-connector stages-connector_d" id="second-connector_d">
+                <circle data-duration="1" r="1" cx="5" cy="5"></circle>
+                <path class="line" d="M 5 5, 90 5"></path>
+                <circle data-duration="1" r="1" cx="90" cy="5"></circle>
+              </svg>
+            </div>
+            <div class="stages-block">
+              <svg class="stages-border stages-border_d" id="third-border_d" viewBox="0 0 280 260">
+                <path d="M 1 140, 1 1, 279 1, 279 110"></path>
+                <path d="M 1 140, 1 259, 220 259, 279 180, 279 110"></path>
+              </svg>
+              <svg class="stages-border stages-border_m" id="third-border_m" viewBox="0 0 280 260">
+                <path d="M 140 2, 2 2,  2 256, 140 256"></path>
+                <path d="M 140 2, 276 2, 278 180, 220 256, 140 256"></path>
+              </svg><img class="stages-block__img" src="img/icons/stopwatch.svg" alt="Таймер">
+              <div class="stages-block__text">Ждите конечного срока, для того, чтобы забрать ваши деньги</div>
+              <div class="stages-block__number">3</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="table section">
+        <div class="container">
+          <h2 class="table-title title">Сравните выгоду</h2>
+          <div class="table_wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th></th>
+                  <th class="table-cell__logo"><img src="img/header/logo.svg"><span>M.B.Barklay</span></th>
+                  <th>Обычные банки</th>
+                  <th>Валютные брокеры</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Максимальная ставка</td>
+                  <td>11.5%</td>
+                  <td>6.5%</td>
+                  <td>Не фиксирована</td>
+                </tr>
+                <tr>
+                  <td>Максимальный доход</td>
+                  <td>Около 2 млн рублей</td>
+                  <td>Около 500 тыс. рублей</td>
+                  <td>Не прогнозируется</td>
+                </tr>
+                <tr>
+                  <td>Страхование капитала</td>
+                  <td>100%</td>
+                  <td>До 1.4 млн рублей</td>
+                  <td>0%</td>
+                </tr>
+                <tr>
+                  <td>Изменение</td>
+                  <td class="table-cell__active">Приумножение капитала</td>
+                  <td>Сохранение капитала</td>
+                  <td>Нет гарантий</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+      <section class="section calc">
+        <div class="container">
+          <h2 class="title">Рассчитайте свой доход</h2>
+          <div class="calc_wrapper">
+            <div class="calc-form">
+              <div class="calc-input__wrapper">
+                <div class="calc-input__block">
+                  <label class="calc-input" for="sum">Сумма вклада
+                    <input type="range" id="sum" name="sum" min="100000" max="5000000" step="50000" value="1100000"><span class="calc-rect calc-rect__sum calc-rect_long"></span><span class="calc-rect calc-rect__sum"></span><span class="calc-rect calc-rect__sum calc-rect_long"></span><span class="calc-rect calc-rect__sum"></span><span class="calc-rect calc-rect__sum calc-rect_long"></span>
+                  </label>
+                  <div class="calc-input__range"><span>100 тыс. рублей</span><span>5 млн рублей</span></div>
+                </div>
+                <div class="calc-input__results">2 500 000</div>
+              </div>
+              <div class="calc-input__wrapper">
+                <div class="calc-input__block">
+                  <label class="calc-input" for="term">Срок
+                    <input type="range" id="term" name="term" min="6" max="36" step="6" value="12"><span class="calc-rect calc-rect__term"></span><span class="calc-rect calc-rect__term"></span><span class="calc-rect calc-rect__term"></span><span class="calc-rect calc-rect__term"></span><span class="calc-rect calc-rect__term"></span><span class="calc-rect calc-rect__term"></span>
+                  </label>
+                  <div class="calc-input__range"><span>6 мес.</span><span>36 мес.</span></div>
+                </div>
+                <div class="calc-input__results">12 мес.</div>
+              </div>
+              <div class="calc-cap">
+                <label for="cap">Капитализация
+                  <input type="checkbox" checked name="cap" id="cap">
+                </label>
+              </div>
+            </div>
+            <div class="calc-results_wrapper">
+              <div class="calc-results">
+                <div class="calc-results__block">
+                  <div class="calc-results__title">Ставка</div>
+                  <div class="calc-results__value">11.5%</div>
+                </div>
+                <div class="calc-results__block">
+                  <div class="calc-results__title">Доход в месяц</div>
+                  <div class="calc-results__value">56 240</div>
+                </div>
+                <div class="calc-results__block">
+                  <div class="calc-results__title">Общий доход</div>
+                  <div class="calc-results__value">2 000 000</div>
+                </div>
+              </div>
+              <div class="calc-button svg-button" id="calc-button">
+                <svg class="svg-button" viewBox="0 0 220 40">
+                  <path d="M0 40, 0 0, 0 0, 220 0, 220 30, 210 40, 0 40">
+                    <animate attributeName="d" id="calc-button_on" calcMode="spline" keySplines=".17 .67 .83 .67" dur="0.2s" fill="freeze" from="M0 40, 0 0, 0 0, 220 0, 220 30, 210 40, 0 40" to="M0 40, 0 20, 20 0, 220 0, 220 20, 200 40, 0 40" begin="indefinite"></animate>
+                    <animate attributeName="d" id="calc-button_off" calcMode="spline" keySplines=".17 .67 .83 .67" dur="0.2s" fill="freeze" from="M0 40, 0 20, 20 0, 220 0, 220 20, 200 40, 0 40" to="M0 40, 0 0, 0 0, 220 0, 220 30, 210 40, 0 40" begin="indefinite"></animate>
+                  </path><span>Оставить заявку</span>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section faq">
+        <div class="container">
+          <h2 class="title faq-title">Часто задаваемые вопросы</h2>
+          <ul class="faq-list">
+            <li class="faq-list__element">
+              <div class="faq-list__title">Что такое КПК?</div>
+              <div class="faq-list__text_wrapper">
+                <div class="faq-list__text">
+                  <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptatem eius. Asperiores quibusdam amet reprehenderit ut distinctio incidunt aspernatur similique sit voluptatem totam consectetur suscipit laboriosam temporibus repudiandae quod, cumque nihil assumenda animi excepturi labore molestias iste quasi architecto. Laborum autem iste minus omnis nulla! Alias ipsam explicabo nesciunt labore recusandae nemo omnis quod eius eligendi voluptas, natus obcaecati officiis facilis non nam, distinctio voluptatem doloribus culpa incidunt cumque vero sapiente? Omnis rerum reiciendis iure voluptates, vero ab recusandae illo asperiores quos obcaecati harum tempora vitae, quam eum sint ipsam maiores dolores nemo quae exercitationem. Minus blanditiis vitae est odit a? Saepe, laboriosam recusandae? Officiis expedita beatae iste ut maiores doloribus, tempore aut impedit eius architecto illo aspernatur perspiciatis, quam velit ullam commodi necessitatibus, alias optio. Libero, odit amet. Deleniti deserunt quisquam esse facilis excepturi minima veritatis cum vitae, enim eius aut doloremque cupiditate ea eos assumenda natus fugit repellat.</div>
+                </div>
+              </div>
+            </li>
+            <li class="faq-list__element">
+              <div class="faq-list__title">Как это работает?</div>
+              <div class="faq-list__text_wrapper">
+                <div class="faq-list__text">
+                  <div>
+                    Работаем под контролем ЦБ РФ
+                    Наша деятельность прозрачна и регулируется Федеральным Законом от 18.07.2009 № 190-ФЗ «О кредитной кооперации». Мы соблюдаем стандарты Центрального Банка России и включены в Государственный реестр КПК. В соответствии с Указанием Банка России формируем резервы на возможные потери по займам.
+                    <br>
+                    Отчитываемся перед пайщиками
+                    <br>
+                    Публикуем отчётность о проделанной работе на годовом собрании и аудиторское заключение, где независимый аудитор выражает мнение о финансовом состоянии организации и результатах нашей деятельности
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <script src="./js/main.min.js"></script>
+  </body>
+</html>
